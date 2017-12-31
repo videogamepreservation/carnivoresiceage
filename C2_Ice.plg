@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C2 - Win32 Release_D3D--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP50D0.TMP" with contents
+[
+/nologo /G5 /ML /W3 /Gi /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_d3d" /Fp"REL_D3D/C2_Ice.pch" /YX /Fo"REL_D3D/" /Fd"REL_D3D/" /FD /c 
+"C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP50D0.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP50D1.TMP" with contents
+[
+ole32.lib oleaut32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib uuid.lib winmm.lib ddraw.lib dsound.lib wsock32.lib sincos.obj /nologo /subsystem:windows /incremental:yes /pdb:"REL_D3D/v_d3d.pdb" /machine:I386 /out:"v_d3d.ren" 
+.\REL_D3D\Audio_DLL.obj
+.\REL_D3D\Characters.obj
+.\REL_D3D\Game.obj
+.\REL_D3D\Hunt2.obj
+.\REL_D3D\Interface.obj
+.\REL_D3D\mathematics.obj
+.\REL_D3D\Render3DFX.obj
+.\REL_D3D\renderd3d.obj
+.\REL_D3D\RenderSoft.obj
+.\REL_D3D\Resources.obj
+.\REL_D3D\resource.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP50D1.TMP"
+<h3>Output Window</h3>
+Compiling...
+Characters.cpp
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1217) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1218) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1219) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1220) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1664) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1665) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1861) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(1862) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2055) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2056) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2251) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2252) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2447) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2448) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2642) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2643) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2848) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(2849) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(3036) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(3037) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(3519) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\MSD50\MyProjects\AudioDrivers\C2_Ice\Characters.cpp(3520) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+v_d3d.ren - 0 error(s), 22 warning(s)
+</pre>
+</body>
+</html>
